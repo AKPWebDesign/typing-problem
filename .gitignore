@@ -1,0 +1,4 @@
+.parcel-cache
+dist
+dist-tsc
+node_modules

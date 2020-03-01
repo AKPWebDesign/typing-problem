@@ -1,0 +1,19 @@
+{
+  "name": "typing-problem",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "source": "src/index.tsx",
+  "license": "MIT",
+  "scripts": {
+    "build": "parcel build src/index.tsx",
+    "tsc-types": "tsc --emitDeclarationOnly"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0-nightly.130",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "react": "^16.13.0"
+  }
+}
